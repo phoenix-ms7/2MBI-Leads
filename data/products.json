@@ -1,0 +1,37 @@
+[
+  {
+    "id": "lansoprazole",
+    "name": "Lansoprazole / dexlansoprazole",
+    "segment": "pharma",
+    "how_used": "Benzimidazole half of the API",
+    "typical_buyer": "API manufacturers"
+  },
+  {
+    "id": "rabeprazole",
+    "name": "Rabeprazole sodium",
+    "segment": "pharma",
+    "how_used": "Benzimidazole half of the API",
+    "typical_buyer": "API manufacturers"
+  },
+  {
+    "id": "ppi-intermediate",
+    "name": "Lansoprazole/rabeprazole intermediates (e.g. sulfide/thioether stage)",
+    "segment": "pharma",
+    "how_used": "Starting material",
+    "typical_buyer": "Intermediate makers in Gujarat, Telangana, Maharashtra"
+  },
+  {
+    "id": "rubber-antioxidant",
+    "name": "Antioxidant MB, and zinc salt ZMBI made from it",
+    "segment": "rubber",
+    "how_used": "Antioxidant in latex and rubber goods",
+    "typical_buyer": "Latex goods, hoses, cables, EPDM/nitrile parts, rubber chemical makers"
+  },
+  {
+    "id": "specialty-additive",
+    "name": "Copper plating brighteners, corrosion inhibitors, photo/film chemicals",
+    "segment": "other",
+    "how_used": "Additive",
+    "typical_buyer": "Specialty chemical formulators"
+  }
+]

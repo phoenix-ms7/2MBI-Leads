@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>2-MBI Client Finder Dashboard</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧪</text></svg>" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="app">
+    <header class="app-header">
+      <div class="header-title">
+        <h1>2-MBI Client Finder</h1>
+        <p class="header-sub">Indian companies likely to buy 2-Mercaptobenzimidazole (CAS 583-39-1) — POC, researched by hand</p>
+      </div>
+      <div class="header-actions">
+        <button class="btn" id="btn-csv">Download CSV</button>
+        <button class="btn" id="btn-export">Export progress</button>
+        <label class="btn btn-file">
+          Import progress
+          <input type="file" id="file-import" accept="application/json" hidden />
+        </label>
+      </div>
+    </header>
+
+    <nav class="tabs">
+      <button class="tab active" id="tab-leads">Leads</button>
+      <button class="tab" id="tab-competitors">Competitors</button>
+    </nav>
+
+    <section id="tiles" class="tiles"></section>
+
+    <section id="lead-filters" class="filters">
+      <select id="filter-segment"><option value="all">All segments</option></select>
+      <select id="filter-state"><option value="all">All states</option></select>
+      <select id="filter-band">
+        <option value="all">All bands</option>
+        <option value="hot">Hot</option>
+        <option value="warm">Warm</option>
+        <option value="cold">Cold</option>
+      </select>
+      <select id="filter-stage">
+        <option value="all">All stages</option>
+        <option>New</option>
+        <option>Researching</option>
+        <option>Ready to contact</option>
+        <option>Emailed</option>
+        <option>Replied</option>
+        <option>Sample sent</option>
+        <option>Quoted</option>
+        <option>Won</option>
+        <option>Lost</option>
+        <option>Not a fit</option>
+      </select>
+      <select id="filter-product"><option value="all">All end products</option></select>
+      <select id="filter-contact">
+        <option value="all">Has contact: any</option>
+        <option value="yes">Has contact</option>
+        <option value="no">No contact</option>
+      </select>
+    </section>
+
+    <main id="table-wrap" class="table-wrap"></main>
+  </div>
+
+  <div id="detail-overlay" class="detail-overlay"></div>
+  <aside id="detail-panel" class="detail-panel">
+    <button id="detail-close" class="detail-close" aria-label="Close">&times;</button>
+    <div id="detail-body"></div>
+  </aside>
+
+  <script src="app.js"></script>
+</body>
+</html>
