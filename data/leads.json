@@ -153,18 +153,33 @@
   },
   {
     "id": "metrochem-api",
-    "name": "Metrochem API",
-    "website": "",
+    "name": "Metrochem API Pvt. Ltd.",
+    "website": "https://www.metroapi.com",
     "segment": "pharma",
-    "state": "",
-    "city": "",
+    "state": "Telangana",
+    "city": "Hyderabad (Jeedimetla, Unit-I)",
     "end_products": ["lansoprazole", "rabeprazole"],
     "captive_2mbi": "unknown",
     "is_competitor": false,
     "is_example": false,
-    "evidence": [],
+    "evidence": [
+      {
+        "signal": "website",
+        "end_product": "lansoprazole",
+        "snippet": "\"List of Proposed Products & its Quantities\" table: \"Lansoprazole, 2.00 [TPM], 103577-45-3, Anti-Ulcer\" — production unit, Jeedimetla, Telangana.",
+        "source_url": "https://environmentclearance.nic.in/DownloadPfdFile.aspx?FileName=wrblVU7xxA6VZKLuaz5+3AaiW+kA1CL1gwd4WWAdGwbrr2K99u4Z1vIoKEd/KwW/u9ahUUYNFYvTJjjVkoONIsyNIpZij/d7USrf2UJT2pc%3D&FilePath=93ZZBm8LWEXfg+HAlQix2fE2t8z/pgnoBhDlYdZCxzWYSktLmWVaXKfetCrs6kw3DoGTia+2sdXMwhPpplwBWruBjKVYi4lT84sunafOeWE%3D",
+        "date": "2026-10-04"
+      },
+      {
+        "signal": "website",
+        "end_product": "rabeprazole",
+        "snippet": "Same table: \"Rabeprazole Sodium, 5.00 [TPM], 117976-90-6, Anti-Ulcer\" — the largest of the four products by volume at this unit.",
+        "source_url": "https://environmentclearance.nic.in/DownloadPfdFile.aspx?FileName=wrblVU7xxA6VZKLuaz5+3AaiW+kA1CL1gwd4WWAdGwbrr2K99u4Z1vIoKEd/KwW/u9ahUUYNFYvTJjjVkoONIsyNIpZij/d7USrf2UJT2pc%3D&FilePath=93ZZBm8LWEXfg+HAlQix2fE2t8z/pgnoBhDlYdZCxzWYSktLmWVaXKfetCrs6kw3DoGTia+2sdXMwhPpplwBWruBjKVYi4lT84sunafOeWE%3D",
+        "date": "2026-10-04"
+      }
+    ],
     "contacts": [],
-    "notes": "Seed candidate — not yet researched. Source: PharmaCompass listing."
+    "notes": "Researched 2026-10-04. Evidence source is a public environmental clearance \"brief note\" for Metrochem API Pvt. Ltd., Unit-I (Sy. Nos. 293 & 298, Pipeline Road, Jeedimetla, Qutubullapur Mandal, Medchal-Malkajigiri District, Telangana), filed via environmentclearance.nic.in (Parivesh). It confirms Lansoprazole and Rabeprazole Sodium as finished products with matching CAS numbers, but does NOT itemize raw materials — so it is scored as a 'website'-tier confirmation of end product, not a 'clearance' (raw-material) signal; do not re-score it as 'clearance' unless a raw-material annexure is found that actually names 2-MBI. CEP/DMF status mentioned in third-party directory listings (PharmaCompass, CPHI) but not yet independently verified via pharmacompass.com (blocked automated access, HTTP 403) — re-check by hand before using. The filing's listed correspondence contact (an EHS/compliance contact, dayakar.pedapati@metroapi.com, per the same document) is NOT a procurement contact and is intentionally not added under contacts — a Purchase/Procurement contact has not yet been found for this company."
   },
   {
     "id": "zeon-pharma-industries-india",
